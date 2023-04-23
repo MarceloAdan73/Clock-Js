@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body {
+    height: 100%;
+  }
+  body {
+    background: grey;
+    font-size: 18px;
+    color: white;
+  }
+
+  .contenedor {
+    width: 90%;
+    height: 100%;
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .contenedor h1 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    font-family: 'Bruno Ace SC', sans-serif;
+    padding: 10px;
+  }
+
+  .widget {
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .widget p {
+    display: inline-block;
+    line-height: 1em;
+  }
+  .fecha {
+    font-family: 'Bruno Ace SC', sans-serif;
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 5px;
+    background: black;
+    padding: 20px;
+    width: 100%;
+  }
+  .reloj {
+    font-family: 'Inconsolata', monospace;
+    width: 100%;
+    padding: 20px;
+    font-size: 3.6em;
+    text-align: center;
+    background: black;
+  }
+  .reloj .cajaSegundos {
+    display: inline-block;  
+  }
+  .reloj .ampm, .reloj .segundos{
+    display: block;
+    font-size: 2rem;
+  }
+
+  @media screen and (max-width : 767px){
+    .widget {
+      width: 100%;
+    }
+  } 
+   
