@@ -63,7 +63,7 @@
     background: black;
   }
   .reloj .cajaSegundos {
-    display: inline-block;  
+    display: inline-block;
   }
   .reloj .ampm, .reloj .segundos{
     display: block;
@@ -73,6 +73,12 @@
   @media screen and (max-width : 600px){
     .widget {
       width: 100%;
+    }
+    .reloj{
+      font-size: 3.2rem;
+    }
+    .reloj .segundos{
+      font-size: 3rem;
     }
   } 
    
