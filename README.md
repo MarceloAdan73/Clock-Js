@@ -4,4 +4,4 @@
 
 - For the correct operation of the clock, the jQuery library included with a link in the head is used to update the application in real time.
 
-🔗 <a href="https://marceloadan73.github.io/Reloj-Js/">See in operation</a>
+🔗 <a href="https://marceloadan73.github.io/Clock-Js/">See in operation</a>
