@@ -1,7 +1,7 @@
-- Reloj Digital creado con html, css y javascript, este ultimo define una función llamada "actualizarHora" que actualiza la hora que se muestra en la App, obtiene la fecha y hora actual utilizando el objeto "Date", y luego extrae la hora, minuto, segundo, dia de mes, mes y año, también crea arreglos para los nombres de los días de la semana y los meses. la función luego actualiza varios elementos HTML en la página con la fecha y hora actual, y formatea la hora en un formato de 12 horas con un indicador AM/PM
+- Digital Clock created with html, css and javascript, the latter defines a function called "updateTime" that updates the time displayed in the App, obtains the current date and time using the "Date" object, and then extracts the hour, minute , second, day of month, month and year, also creates arrays for the names of the days of the week and months. the function then updates various HTML elements on the page with the current date and time, and formats the time in a 12-hour format with an AM/PM indicator
 
 <img src="./reloj.png" alt="imagen del proyecto">
 
-- Para el correcto funcionamiento del reloj se utiliza la librería jQuery incluida con un enlace en el head, para actualización de la aplicación en tiempo real.
+- For the correct operation of the clock, the jQuery library included with a link in the head is used to update the application in real time.
 
-🔗 <a href="https://marceloadan73.github.io/Reloj-Js/">Ver Demo en vivo</a>
+🔗 <a href="https://marceloadan73.github.io/Reloj-Js/">See in operation</a>
